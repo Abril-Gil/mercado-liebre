@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    }
+    
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    background-color: #ebebeb;
+}
+
+header{
+    background-color: #EAC926;
+    width: 100vw;
+    text-align: center;
+}
+
+.img{
+    width: 45%;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+form{
+    background-color: #ebebeb;
+    padding: 3px;
+    margin: 10px 5px;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 50%;
+}
+
+.form__nombre{
+    padding: 3px;
+    border: white solid 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+}
+
+.form__usuario{
+    padding: 3px;
+    border: white solid 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+}
+
+.form__email{
+    padding: 3px;
+    border: white solid 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+}
+
+.form__fecha-titulo{
+    padding: 3px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form__fecha{
+    padding: 3px;
+    border: white solid 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+}
+
+.form__domicilio{
+    padding: 3px;
+    border: white solid 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+    margin-top: 25px;
+}
+
+.form__comprar-titulo{
+    padding: 3px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form__comprar1{
+    padding: 3px;
+    margin: 15px;
+}
+
+.form__comprar2{
+    padding: 3px;
+    margin: 15px;
+}
+
+.form__intereses-titulo{
+    padding: 3px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form__intereses{
+    padding: 3px;
+    margin: 15px;
+}
+
+.form__foto{
+    padding: 5px;
+    margin: 15px; 
+    width: 100%;
+}
+
+.form__foto-titulo{
+    padding: 3px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.form__contraseña{
+    padding: 3px;
+    border: white solid 1px;
+    border-radius: 6px;
+    width: 90%;
+    margin: 10px;
+}
+
+.botones{
+    text-align: center;
+}
+
+.form__botones{
+    padding: 3px;
+    margin: 10px;
+    background-color: #03264C;
+    color: white;
+    border-radius: 5px;
+}
