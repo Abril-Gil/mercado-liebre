@@ -279,6 +279,7 @@ body{
 
     }
 
+
     .producto{
         width: 24%;
     }
@@ -342,3 +343,4 @@ body{
     .fa-user-shield:hover{
         color: #0022AA;
     }
+}
